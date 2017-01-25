@@ -1,0 +1,32 @@
+<html>
+	<head><title></title></head>
+	<body>
+	
+	<div ng-app="myApp" ng-controller="myCtr" >
+		<div ng-repeat="card in cards">
+			<div class="card col-sm-02">
+				<img src="{{card.img}}">
+				<div class="container">
+					<h3> {{card.heading}} </h3>
+					<p> {{card.details}} </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<link rel="stylesheet" href="cards.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="cards.js"></script>
+	</body>
+</html>
+
+
+
